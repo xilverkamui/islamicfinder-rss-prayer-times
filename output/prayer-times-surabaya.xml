@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<rss version="2.0" 
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" 
+    xmlns:media="http://search.yahoo.com/mrss/"
+>
+<channel>
+<title>Jadwal Waktu Sholat Kota Surabaya, Indonesia</title>
+<atom:link href="https://app.xkamui.eu.org/rss/prayer-times-surabaya.php" rel="self" type="application/rss+xml" />
+<link>https://app.xkamui.eu.org/rss</link>
+<description>Jadwal Waktu Sholat Kota Surabaya, Indonesia</description>
+<language>id-ID</language>
+<copyright>Copyright 2023</copyright>
+<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/3.0/</creativeCommons:license>
+<item>
+    <title>Jadwal Waktu Sholat Kota Surabaya, Indonesia</title>
+    <guid>https://www.islamicfinder.org/prayer-widget/1625822/shafi/6/0/20.0/18.0?tanggal=WednesdayDec272023</guid>
+    <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+    <dc:creator>Xilver Kamui</dc:creator>
+    <description><![CDATA[
+    <strong></strong><br>
+    Subuh &nbsp; &nbsp;: 03:48 AM<br>
+    Dhuhur &nbsp;: 11:30 AM<br>
+    Ashar &nbsp; &nbsp; &nbsp;: 02:57 PM<br>
+    Maghrib : 05:47 PM<br>
+    Isya &nbsp; &nbsp; &nbsp; &nbsp; : 07:03 PM<br><br>
+    
+    Ayo sholat berjamaah !]]></description>
+    <content:encoded><![CDATA[
+    <strong></strong><br>
+    Subuh &nbsp; &nbsp;: 03:48 AM<br>
+    Dhuhur &nbsp;: 11:30 AM<br>
+    Ashar &nbsp; &nbsp; &nbsp;: 02:57 PM<br>
+    Maghrib : 05:47 PM<br>
+    Isya &nbsp; &nbsp; &nbsp; &nbsp; : 07:03 PM<br><br>
+    
+    Ayo sholat berjamaah !]]>
+    </content:encoded>
+    <media:content medium="image" url=""/>
+</item>
+
+</channel>
+</rss>
