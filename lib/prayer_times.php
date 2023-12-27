@@ -21,12 +21,14 @@ function getPrayerTimes($html_content) {
 
     // Extract date
     $date_element = $html->find('.text-center p', 0);
-    $date = $date_element ? $date_element->plaintext : 'Unknown';
-    $date = DateTime::createFromFormat('l, M d, Y', $date);
-    $date->setTimezone(new DateTimeZone('Asia/Jakarta'));
+    $dateOriginal = $date_element ? $date_element->plaintext : 'Unknown';
+    $date = DateTime::createFromFormat('l, M d, Y', $dateOriginal);
+    //$date->setTimezone(new DateTimeZone('Asia/Jakarta'));
     $prayer_times['Date'] = $date->format('Y-m-d');
-    $prayer_times['DateISO'] = $date->format('D, d M Y 00:00:00 O');
-
+    //$prayer_times['DateISO'] = $date->format('D, d M Y 00:00:00 O');
+    $prayer_times['DateISO'] = $date->format('D, d M Y 00:00:00 +0700');
+    $prayer_times['DateOriginal'] = $dateOriginal;
+    $prayer_times['DateHost'] = date('Y-m-d H:i:s');
 
     // Extract prayer times
     $times_elements = $html->find('.d-flex.flex-direction-row.flex-justify-sb.pad-top-sm.pad-left-sm.pad-right-sm');
