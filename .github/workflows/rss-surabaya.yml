@@ -1,0 +1,25 @@
+name: Generate RSS Jadwal Sholat Surabaya
+
+on:
+  schedule:
+    - cron: '0 18 * * *' # Menjalankan setiap jam 1 pagi (GMT+7)
+
+jobs:
+  generate-rss:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Run PHP Script to Generate RSS
+        run: |
+          php prayer-times-surabaya.php > output/jadwal-sholat-surabaya.xml
+
+      - name: Commit RSS file to repository
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add output/jadwal-sholat-surabaya.xml
+          git commit -m "Update Jadwal Sholat Surabaya RSS file"
+          git push
