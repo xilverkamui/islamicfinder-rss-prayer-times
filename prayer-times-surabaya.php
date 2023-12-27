@@ -25,8 +25,7 @@ $dhuhur = $prayer_times['Dhuhr'];
 $ashar = $prayer_times['Asr'];
 $maghrib = $prayer_times['Maghrib'];
 $isya = $prayer_times['Isha'];
-//$pubDate = date('D, d M Y H:i:s O');
-$pubDate = date("r",strtotime($date));
+$pubDate = $prayer_times['DateISO'];
 
 
 // Handle output based on the 'filetype' query parameter
