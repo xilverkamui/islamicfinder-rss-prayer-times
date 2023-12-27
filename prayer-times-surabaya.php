@@ -25,13 +25,24 @@ $dhuhur = $prayer_times['Dhuhr'];
 $ashar = $prayer_times['Asr'];
 $maghrib = $prayer_times['Maghrib'];
 $isya = $prayer_times['Isha'];
+
 $pubDate = $prayer_times['DateISO'];
+$tanggal = date_create_from_format('Y-m-d', $date);
+$tanggal = date_format($tanggal, 'l, d M Y');
 
 
 // Handle output based on the 'filetype' query parameter
 if ($output === 'html') {
     header('Content-Type: text/html');
     print_r($prayer_times);
+    echo "
+    Feed Link: " . $feedLink . "
+    Feed Home: " . $feedHome . "
+    Published Date: " . $pubDate . "
+    City: " . $city . "
+    Date: " . $date . "
+    Tanggal: " . $tanggal . "
+    ";
 } else {
     // Output as RSS
     header('Content-type: application/xml');
@@ -39,7 +50,7 @@ if ($output === 'html') {
         header('Cache-Control: public, max-age=14400');
     }
     $content  = '
-    <strong>' . $tanggal2 . '</strong><br>
+    <strong>' . $tanggal . '</strong><br>
     Subuh &nbsp; &nbsp;: ' . $subuh . '<br>
     Dhuhur &nbsp;: ' . $dhuhur . '<br>
     Ashar &nbsp; &nbsp; &nbsp;: ' . $ashar . '<br>
@@ -60,12 +71,12 @@ if ($output === 'html') {
 <title>Jadwal Waktu Sholat Kota ' . $city . '</title>
 <atom:link href="' . $feedLink . '" rel="self" type="application/rss+xml" />
 <link>' . $feedHome . '</link>
-<description>Jadwal Waktu Sholat Kota ' . $city . '</description>
+<description>Jadwal Waktu Sholat ' . $city . '</description>
 <language>id-ID</language>
 <copyright>Copyright ' . date('Y') . '</copyright>
 <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/3.0/</creativeCommons:license>
 <item>
-    <title>Jadwal Waktu Sholat Kota ' . $city . '</title>
+    <title>Jadwal Waktu Sholat ' . $city . '</title>
     <guid>' . $guid . '</guid>
     <pubDate>' . $pubDate . '</pubDate>
     <dc:creator>Xilver Kamui</dc:creator>
