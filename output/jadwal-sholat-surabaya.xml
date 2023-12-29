@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<rss version="2.0" 
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" 
+    xmlns:media="http://search.yahoo.com/mrss/"
+>
+<channel>
+<title>Jadwal Waktu Sholat Kota Surabaya, Indonesia</title>
+<atom:link href="https://" rel="self" type="application/rss+xml" />
+<link>https://</link>
+<description>Jadwal Waktu Sholat Surabaya, Indonesia</description>
+<language>id-ID</language>
+<copyright>Copyright 2023</copyright>
+<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/3.0/</creativeCommons:license>
+<item>
+    <title>Jadwal Waktu Sholat Surabaya, Indonesia</title>
+    <guid>https://www.islamicfinder.org/prayer-widget/1625822/shafi/6/0/20.0/18.0?tanggal=2023-12-30</guid>
+    <pubDate>Sat, 30 Dec 2023 00:00:00 +0700</pubDate>
+    <dc:creator>Xilver Kamui</dc:creator>
+    <description><![CDATA[
+    <strong>Saturday, 30 Dec 2023</strong><br>
+    Subuh &nbsp; &nbsp;: 03:50 AM<br>
+    Dhuhur &nbsp;: 11:32 AM<br>
+    Ashar &nbsp; &nbsp; &nbsp;: 02:59 PM<br>
+    Maghrib : 05:48 PM<br>
+    Isya &nbsp; &nbsp; &nbsp; &nbsp; : 07:04 PM<br><br>
+    
+    Ayo sholat berjamaah !]]></description>
+    <content:encoded><![CDATA[
+    <strong>Saturday, 30 Dec 2023</strong><br>
+    Subuh &nbsp; &nbsp;: 03:50 AM<br>
+    Dhuhur &nbsp;: 11:32 AM<br>
+    Ashar &nbsp; &nbsp; &nbsp;: 02:59 PM<br>
+    Maghrib : 05:48 PM<br>
+    Isya &nbsp; &nbsp; &nbsp; &nbsp; : 07:04 PM<br><br>
+    
+    Ayo sholat berjamaah !]]>
+    </content:encoded>
+    <media:content medium="image" url=""/>
+</item>
+
+</channel>
+</rss>
