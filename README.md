@@ -16,7 +16,10 @@ This project is a PHP script that retrieves prayer times for a specific location
 
 ## Usage
 ### Generating RSS Feed
-- Access the script via a web browser.
+- Access directly via raw file.
+   ```bash
+  https://raw.githubusercontent.com/xilverkamui/islamicfinder-rss-prayer-times/main/output/jadwal-sholat-surabaya.xml
+- Host on your own server.
   ```bash
   http://your-domain.com/prayer_times_surabaya.php
   OR
