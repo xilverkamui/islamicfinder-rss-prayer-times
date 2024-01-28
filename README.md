@@ -1,3 +1,5 @@
+# THIS PROJECT IS NOT WORKING ANYMORE. PLEASE USE https://github.com/xilverkamui/rss-prayer-times INSTEAD
+
 # IslamicFinder RSS Prayer Times
 
 This project is a PHP script that retrieves prayer times for a specific location from the Islamic Finder website and generates an RSS feed or HTML output based on user preferences.
